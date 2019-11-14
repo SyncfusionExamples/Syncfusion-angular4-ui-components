@@ -2,7 +2,35 @@
 
 Syncfusion Angular4 UI Components is a collection of modern TypeScript based true Angular Components. It has support for Ahead Of Time (AOT) compilation and Tree-Shaking. All the components are developed from the ground up to be lightweight, responsive, modular and touch friendly.
 
-## Create a sample 
+### Setting up an angular project
+
+Angular provides the easiest way to set angular CLI projects using [`Angular CLI`](https://github.com/angular/angular-cli) tool.
+
+Install the CLI application globally to your machine.
+
+```bash
+npm install -g @angular/cli@1.2.0
+```
+
+## Create a new application
+
+```bash
+ng new angular-app
+```
+
+By default, it installs the CSS style base application. To setup with SCSS, pass --style=SCSS argument on create project.
+
+Example code snippet.
+
+```bash
+ng new angular-app --style=scss
+```
+
+Navigate to the created project folder.
+
+```bash
+cd angular-app
+```
 
 ## Installing Syncfusion grid package
 
